@@ -9,7 +9,7 @@ The most widely used coordinate system for data visualization is the 2D Cartesia
 
 Any data values between these axis limits are placed at the appropriate respective location in the plot. Any data values outside the axis limits are discarded.
 
-<img src="/assets/images/Cartesian_axis.png" alt="Cartesian Axis">
+<img src="/assets/images/Data Visualization/Cartesian_axis.png" alt="Cartesian Axis">
 
 - Spacing between grid lines along axis = Discrete steps in data units
 - The 2 axes can represent 2 different units, which is the case when variables being mapped to **x** and **y** are different.
@@ -18,7 +18,7 @@ Any data values between these axis limits are placed at the appropriate respecti
 	- Short and wide - Emphasize change along the x-axis.
 	Choose an aspect ratio that ensures that any important differences in position are noticeable.
 
-<img src="/assets/images/houston_temperature_normals.png">
+<img src="/assets/images/Data Visualization/houston_temperature_normals.png">
 - On the other hand, if the x and y axes are measured in the same units, then the grid spacings for the two axes should be equal, such that the same distance along the x or y axis corresponds to the same number of data units. 
 - Cartesian co-ordinates are invariant under linear transformations. Therefore, you can change the units of your data and the resulting figure will not change as long as you change the axes accordingly.
 
@@ -30,7 +30,7 @@ In a non-linear scale, even spacing in data units correspond to uneven spacing i
 
 The most commonly used nonlinear scale is the **logarithmic scale**, or log scale for short. Log scales are linear in multiplication, such that a unit step on the scale corre‐ sponds to multiplication with a fixed value. To create a log scale, we need to log- transform the data values while exponentiating the numbers that are shown along the axis grid lines. 
 
-![[Pasted image 20240206225340.png]]
+<img src="/assets/images/Data Visualization/linear_log_relationship.png">
 Mathematically, there's no difference between:
 1. Plotting log-transformed data on a linear scale
 2. Plotting original data on a logarithmic scale
@@ -52,7 +52,7 @@ Log scales are frequently used when the dataset contains numbers of very differe
 Compresses larger numbers into a smaller scale, but allows for the presence of 0. 
 It is the natural scale for data that comes in squares. E.g. Areas of geographical regions
 
-![[Pasted image 20240206231509.png]]
+<img src="/assets/images/Data Visualization/sqrt_scale.png">
 **Disadvantages**:
 
 1. The meaning of a unit step on a square-root scale depends on the scale value at which we’re starting.
@@ -64,7 +64,7 @@ It is the natural scale for data that comes in squares. E.g. Areas of geographic
 In particular, in the polar coordinate system, we specify positions via an angle and a radial distance from the origin, and therefore the angle axis is circular.  
 Useful for data of periodic nature.
 
-![[Pasted image 20240206232326.png]]
+<img src="/assets/images/Data Visualization/polar_scale_example.png">
 
 ## Geospatial Data(Maps)
 
@@ -72,4 +72,9 @@ Locations on the globe are specified by their longitude and latitude. But becaus
 
 Instead, we use various types of nonlinear projections that attempt to minimize artifacts and that strike different balances between conserving areas or angles relative to the true shape lines on the globe.
 
-![[Pasted image 20240206232718.png]]
+<img src="/assets/images/Data Visualization/map_projections.png">
+
+## References
+1. [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+
