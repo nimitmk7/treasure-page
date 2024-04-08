@@ -19,7 +19,6 @@ Any data values between these axis limits are placed at the appropriate respecti
 	Choose an aspect ratio that ensures that any important differences in position are noticeable.
 
 <img src="/assets/images/houston_temperature_normals.png">
-![[Pasted image 20240206141929.png]]
 - On the other hand, if the x and y axes are measured in the same units, then the grid spacings for the two axes should be equal, such that the same distance along the x or y axis corresponds to the same number of data units. 
 - Cartesian co-ordinates are invariant under linear transformations. Therefore, you can change the units of your data and the resulting figure will not change as long as you change the axes accordingly.
 
