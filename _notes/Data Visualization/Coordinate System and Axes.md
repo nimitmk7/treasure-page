@@ -40,9 +40,9 @@ Although, the latter is preferable;
 
 Because multiplication on a log scale looks like addition on a linear scale, log scales are the natural choice for any data that has been obtained by multiplication or division. In particular, ratios should generally be shown on a log scale. 
 
-On a log scale, the value 1 is the natural midpoint, similar to 0 on a linear scale.
-Values > 1 ⇒ Multiplication
-Values < 1 ⇒ Division
+On a log scale, the value 1 is the natural midpoint, similar to 0 on a linear scale. <br>
+Values > 1 ⇒ Multiplication <br>
+Values < 1 ⇒ Division <br>
 
 Log scales are frequently used when the dataset contains numbers of very different magnitudes.
 
