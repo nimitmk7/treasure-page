@@ -9,5 +9,5 @@ A formal system of rules for generating lawful statement in a language.
 
 ## Components of Visualization
 
-![[Pasted image 20240208175855.png]]
+<img src="/assets/images/Data Visualization/visualization_layers.png">
 
